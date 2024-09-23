@@ -14,7 +14,7 @@
 include "_locks.pxi"
 from .defs cimport *
 
-DEF USE_LOCKING = True
+DEF USE_LOCKING = False
 DEF DEBUG_ID = False
 
 # --- Locking code ------------------------------------------------------------
